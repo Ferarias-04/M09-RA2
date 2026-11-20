@@ -8,6 +8,7 @@ public class Coet {
             motors[i] = new Motor(i);
         }
     }
+    
     public boolean passaAPotencia(int p) {
         if(p < 0 || p > 10) {
             System.err.println("Error: la potència ha d'estar entre 0 i 10 (" + p + ")");
